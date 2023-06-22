@@ -10,4 +10,11 @@ Module Pégase REF / API REF v1 - Référentiel :
     - PUT ​/nomenclatures​/{codeNomenclature}​/code​/{code}​/dateDebutValidite​/{dateDebutValidite}​/structure​/{codeStructure} Modifier une nomenclature
   - Renseigner les variables password et instance dans le source pour adapter le programme Python à son instance Pégase
   - Adapter la liste de libellés courts dans le source Python à ses propres attentes (in [ "FRANCE", "ALLEMAGNE", "AUTRICHE", "BELGIQUE", ...])
+- Le programme lstpays.py donne un exemple de programme permettant de lister une nomenclature à toutes fins utiles (ici Pays et nationalités).
+  - Utilisation des API :
+    - GET ​/nomenclatures​/{codeNomenclature} Liste des nomenclatures
+      - Renseigner les variables password et instance dans le source pour adapter le programme Python à son instance Pégase
+  - Adapter le print à ses besoins (format lecture ou CSV), choix des champs à lister (code, libelleCourt, libelleLong, etc., à trouver dans swagger)
+  - C'est une sortie écran : pour créer un fichier, lancer par exemple python3 lstpays.py > lstpays.csv
+ 
  

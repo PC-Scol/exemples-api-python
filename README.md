@@ -13,7 +13,7 @@ Module Pégase REF / API REF v1 - Référentiel :
 - Le programme lstpays.py donne un exemple de programme permettant de lister une nomenclature à toutes fins utiles (ici Pays et nationalités).
   - Utilisation des API :
     - GET ​/nomenclatures​/{codeNomenclature} Liste des nomenclatures
-      - Renseigner les variables password et instance dans le source pour adapter le programme Python à son instance Pégase
+  - Renseigner les variables password et instance dans le source pour adapter le programme Python à son instance Pégase
   - Adapter le print à ses besoins (format lecture ou CSV), choix des champs à lister (code, libelleCourt, libelleLong, etc., à trouver dans swagger)
   - C'est une sortie écran : pour créer un fichier, lancer par exemple python3 lstpays.py > lstpays.csv
  

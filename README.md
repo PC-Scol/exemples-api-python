@@ -20,3 +20,8 @@ Module Pégase REF / API REF v1 - Référentiel :
   - Utilisation des API :
     - GET ​/nomenclatures​/{codeNomenclature} Liste des nomenclatures
   - Renseigner les variables password et instance dans le source pour adapter le programme Python à son instance Pégase
+- Le programme supRSE.py permet de supprimer toutes les occurrences d'une nomenclature (RSE) pour permettre une nouvelle injection de valeurs d'un fichier CSV via la RDD.
+  - Utilisation des API :
+    - GET ​/nomenclatures​/{codeNomenclature} Liste des nomenclatures
+    - DELETE /nomenclatures/{codeNomenclature}/code/{code}/dateDebutValidite/{dateDebutValidite}/structure/{codeStructure}
+  - Renseigner les variables password et instance dans le source pour adapter le programme Python à son instance Pégase

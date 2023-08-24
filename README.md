@@ -16,5 +16,7 @@ Module Pégase REF / API REF v1 - Référentiel :
   - Renseigner les variables password et instance dans le source pour adapter le programme Python à son instance Pégase
   - Adapter le print à ses besoins (format lecture ou CSV), choix des champs à lister (code, libelleCourt, libelleLong, etc., à trouver dans swagger)
   - C'est une sortie écran : pour créer un fichier, lancer par exemple python3 lstpays.py > lstpays.csv
- 
- 
+- Le programme dumpdiplsise.py permet d'extraire au format CSV les codes diplômes SISE livrés avec Pégase (l'IHM ne permet pas de les parcourir facilement).
+  - Utilisation des API :
+    - GET ​/nomenclatures​/{codeNomenclature} Liste des nomenclatures
+  - Renseigner les variables password et instance dans le source pour adapter le programme Python à son instance Pégase

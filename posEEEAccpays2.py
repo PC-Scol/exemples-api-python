@@ -75,7 +75,7 @@ for i in range(len(donnees)):
 
 # Ne positionner le témoin UE EEE Accords à vrai que pour les pays souhaités
 # Liste à éventuellement mettre à jour selon l'établissement
-    temoinAccords = donnees[i]['libelleCourt'] in [ "FRANCE", "ALLEMAGNE", "AUTRICHE", "BELGIQUE", "BULGARIE", "CHYPRE", "CROATIE", "DANEMARK", "ESPAGNE", "ESTONIE", "FINLANDE", "GRECE", "HONGRIE", "IRLANDE", "ITALIE", "LETTONIE", "LITUANIE", "LUXEMBOURG", "MALTE", "PAYS-BAS", "POLOGNE", "PORTUGAL", "TCHEQUIE", "ROUMANIE", "SLOVAQUIE", "SLOVENIE", "SUEDE", "SUISSE", "ISLANDE", "NORVEGE", "lIECHTENSTEIN", "MONACO", "ANDORRE" ]
+    temoinAccords = donnees[i]['libelleCourt'] in [ "FRANCE", "ALLEMAGNE", "AUTRICHE", "BELGIQUE", "BULGARIE", "CHYPRE", "CROATIE", "DANEMARK", "ESPAGNE", "ESTONIE", "FINLANDE", "GRECE", "HONGRIE", "IRLANDE", "ITALIE", "LETTONIE", "LITUANIE", "LUXEMBOURG", "MALTE", "PAYS-BAS", "POLOGNE", "PORTUGAL", "TCHEQUIE", "ROUMANIE", "SLOVAQUIE", "SLOVENIE", "SUEDE", "SUISSE", "ISLANDE", "NORVEGE", "LIECHTENST", "MONACO", "ANDORRE" ]
 
     # On inclut un pays dans les pays de la zone UE EEE Accords en cochant cette case
     d = dict(donnees[i])
